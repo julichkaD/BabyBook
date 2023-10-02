@@ -26,7 +26,9 @@ const Search = () => {
           autofocus
           required
         />
-        <button className="submit" type="submit">GO</button>
+        <button className="submit" type="submit">
+          GO
+        </button>
       </form>
     </div>
   );

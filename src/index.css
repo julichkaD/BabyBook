@@ -82,6 +82,9 @@
 }
 
  /* BODY  */
+.main-container {
+  width:90%
+}
 
 .body-image {
   width: 50%;
@@ -96,6 +99,7 @@
   width: 50%;
   float: left;
   padding-left: 200px;
+  
  
 }
 
@@ -152,8 +156,6 @@ body {
   flex-direction: column;
   background-color: rgb(249, 249, 241);
 }
-
-
 
 
 

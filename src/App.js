@@ -6,23 +6,17 @@ import Footer from "./Components/Footer/Footer";
 // import ContactUs from "./pages/ContactUs";
 // import Home from "./pages/Home";
 
-
-
-
-
 const App = () => {
   return (
     <>
-     <Navbar/> 
-     < Body/>
-     < Footer/>
+      <Navbar />
+      <Body />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
-
-
+export default App;
 
 // function App() {
 //   return (
