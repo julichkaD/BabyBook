@@ -1,6 +1,8 @@
 import React from "react";
 import image from "./image.jpg";
 import Search from "./Search";
+import  'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Body = () => {
   return (
@@ -9,7 +11,7 @@ const Body = () => {
         <Search />
       </div>
       <div className="body-image">
-        <img src={image} alt="kids are reading" width="940px" />
+        <img src={image} alt="kids are reading" className="img-fluid" />
       </div>
     </div>
   );
