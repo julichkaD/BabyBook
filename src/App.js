@@ -2,9 +2,11 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Body from "./Components/Body/Body";
 import Footer from "./Components/Footer/Footer";
-// import { BrowserRouter, Route, Switch } from 'react-router-dom';
-// import ContactUs from "./pages/ContactUs";
-// import Home from "./pages/Home";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import ContactUs from "./pages/ContactUs";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
@@ -12,6 +14,7 @@ const App = () => {
       <Navbar />
       <Body />
       <Footer />
+      
     </>
   );
 };
